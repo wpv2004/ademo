@@ -16,6 +16,6 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push 938277413307.dkr.ecr.us-west-2.amazonaws.com/ademo:$IMAGE_TAG
+      - docker push 938277413307.dkr.ecr.us-west-2.amazonaws.com/ademo
 
 # adding comment
